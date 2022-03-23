@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.main{
+    width: 100;
+    background: -o-linear-gradient(to top, rgba(0,0,0,0.5)50%rgba(0,0,0,0.5)50%), url();
+    background-image: url(../bruuh.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: firebrick;
+    font-size: 35px;
+    font-family: Arial ;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+    
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: orangered ;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+
+}
+ul li a:hover{
+    color: #ff7200;
+
+}.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: wheat;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top: 13px;
+    color: antiquewhite;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+    
+}
+content{
+    color: gray;
+
+}
