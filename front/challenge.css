@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background: black;
+}
+.container{
+    width: 400px;
+    background: springgreen;
+    padding: 20px 30px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-aroundkkj \;
+    flex-direction: column;
+    background-color: blue;
+}
+.container .circle-widget input{m
+    display: none;
+
+}
+
+.circle-widget label{
+    font-size: 40px;
+    color: grey;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+
+}
+ input:not(:checked) label :hover,
+ input: :not()
